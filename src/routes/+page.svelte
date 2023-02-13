@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Counter from '../components/Counter.svelte'
+</script>
+
+<p>Click the button to increase the count</p>
+
+<Counter />
+
+<style>
+    :root {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
